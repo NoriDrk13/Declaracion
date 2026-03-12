@@ -10,6 +10,9 @@ btnSi.addEventListener("click", function(){
 
     if(etapa === 0){
 
+        // cambiar gif en segunda pantalla
+        foto.src = "pregunta.gif";
+
         pregunta.innerHTML = "¿A dónde quieres ir? 😏";
 
         botones.innerHTML = `
@@ -29,15 +32,15 @@ function respuesta(lugar){
     botones.innerHTML = "";
 
     if(lugar === "Portones"){
-        foto.src = "portones.png";
+        foto.src = "portones.jpg";
     }
 
     if(lugar === "Rukito"){
-        foto.src = "rukito.avif";
+        foto.src = "rukito.jpg";
     }
 
     if(lugar === "La Costeñita"){
-        foto.src = "costeñita.avif";
+        foto.src = "costeñita.jpg";
     }
 
     iniciarCorazones();
