@@ -11,7 +11,7 @@ btnSi.addEventListener("click", function(){
     if(etapa === 0){
 
         // cambiar gif en segunda pantalla
-        foto.src = "pregunta.gif";
+        foto.src = "medio.gif";
 
         pregunta.innerHTML = "¿A dónde quieres ir? 😏";
 
@@ -79,3 +79,4 @@ function iniciarCorazones(){
     },300);
 
 }
+
