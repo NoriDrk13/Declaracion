@@ -32,15 +32,15 @@ function respuesta(lugar){
     botones.innerHTML = "";
 
     if(lugar === "Portones"){
-        foto.src = "portones.jpg";
+        foto.src = "portones.png";
     }
 
     if(lugar === "Rukito"){
-        foto.src = "rukito.jpg";
+        foto.src = "rukito.avif";
     }
 
     if(lugar === "La Costeñita"){
-        foto.src = "costeñita.jpg";
+        foto.src = "costeñita.avif";
     }
 
     iniciarCorazones();
